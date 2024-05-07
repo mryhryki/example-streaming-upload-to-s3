@@ -3,8 +3,11 @@
   "private": true,
   "author": "mryhryki",
   "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
-    "start": "node ./index.mjs",
+    "start": "node --watch ./index.mjs",
     "bucket:create": "node ./bucket_create.mjs",
     "bucket:delete": "node ./bucket_delete.mjs"
   },
