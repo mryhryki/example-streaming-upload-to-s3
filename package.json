@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "aws-sdk": "^2.1614.0"
+    "aws-sdk": "^2.1614.0",
+    "dotenv": "^16.4.5"
   }
 }
