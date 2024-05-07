@@ -15,7 +15,7 @@ export const exec = (callback) => {
     credentials: {
       accessKeyId: getRequiredEnv("AWS_ACCESS_KEY_ID"),
       secretAccessKey: getRequiredEnv("AWS_SECRET_ACCESS_KEY"),
-      getRequiredEnv: process.env["AWS_SESSION_TOKEN"] ?? undefined,
+      sessionToken: process.env["AWS_SESSION_TOKEN"] ?? undefined,
     },
   });
 
