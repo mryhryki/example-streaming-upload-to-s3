@@ -4,7 +4,7 @@
   "author": "mryhryki",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.mjs"
   },
   "dependencies": {
     "aws-sdk": "^2.1614.0",
