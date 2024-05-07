@@ -4,7 +4,9 @@
   "author": "mryhryki",
   "license": "MIT",
   "scripts": {
-    "start": "node ./index.mjs"
+    "start": "node ./index.mjs",
+    "bucket:create": "node ./bucket_create.mjs",
+    "bucket:delete": "node ./bucket_delete.mjs"
   },
   "dependencies": {
     "aws-sdk": "^2.1614.0",
