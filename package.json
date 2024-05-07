@@ -9,6 +9,8 @@
     "bucket:delete": "node ./bucket_delete.mjs"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.569.0",
+    "@aws-sdk/core": "^3.567.0",
     "aws-sdk": "^2.1614.0",
     "dotenv": "^16.4.5"
   }
