@@ -1,0 +1,9 @@
+{
+  "name": "example-streaming-upload-to-s3",
+  "private": true,
+  "author": "mryhryki",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
